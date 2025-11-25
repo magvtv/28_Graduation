@@ -79,20 +79,25 @@ a, p {
 
 nav {
     position: fixed;
-    width: 100%;
+    width: calc(100% - 4rem);
+    max-width: 1400px;
     padding: 1.5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: var(--ink);
+    background-color: var(--slate);
     transition: all 0.3s ease;
-    left: 0;
-    top: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 16px;
+    margin-top: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
 }
 
 nav.scrolled {
+    /* Keep same style when scrolled */
     background-color: var(--slate);
     width: calc(100% - 4rem);
     max-width: 1400px;
@@ -105,6 +110,12 @@ nav.scrolled {
 }
 
 @media (max-width: 768px) {
+    nav {
+        width: calc(100% - 2rem);
+        margin-top: 0.5rem;
+        border-radius: 8px;
+    }
+    
     nav.scrolled {
         width: calc(100% - 2rem);
         margin-top: 0.5rem;
@@ -113,6 +124,13 @@ nav.scrolled {
 }
 
 @media (max-width: 480px) {
+    nav {
+        width: calc(100% - 1rem);
+        margin-top: 0.5rem;
+        border-radius: 6px;
+        padding: 1rem;
+    }
+    
     nav.scrolled {
         width: calc(100% - 1rem);
         margin-top: 0.5rem;

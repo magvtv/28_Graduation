@@ -27,28 +27,19 @@ function updateNavigation() {
 updateNavigation();
 
 // ========================================
-// STICKY NAVIGATION SCROLL EFFECT
+// NAVIGATION INITIALIZATION
 // ========================================
 
-function handleNavScroll() {
+function initNavbar() {
     const nav = document.querySelector('nav');
     if (!nav) return;
-
-    const scrollY = window.scrollY || window.pageYOffset;
-    const scrollThreshold = 50; // Start effect after 50px scroll
-
-    if (scrollY > scrollThreshold) {
-        nav.classList.add('scrolled');
-    } else {
-        nav.classList.remove('scrolled');
-    }
+    
+    // Always apply scrolled class for elegant pill design
+    nav.classList.add('scrolled');
 }
 
-// Handle scroll event
-window.addEventListener('scroll', handleNavScroll);
-
-// Check initial scroll position
-handleNavScroll();
+// Initialize navbar on page load
+initNavbar();
 
 // ========================================
 // THREE.JS GLASS EFFECT
