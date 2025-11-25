@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guest List Management — Admin</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="/pages/main.html">PH-2025</a>
+        </div>
+        <div class="nav-links">
+            <a href="/pages/main.html">Home</a>
+            <a href="/pages/event.html">Event Details</a>
+        </div>
+    </nav>
+
+    <section class="admin-hero">
+        <div class="admin-hero-content">
+            <h1>Guest List Management</h1>
+            <p>Manage your graduation party guest list in real-time</p>
+        </div>
+    </section>
+
+    <section class="admin-content">
+        <div class="admin-container">
+            <!-- Stats Section -->
+            <div class="stats-section">
+                <div class="stat-card">
+                    <h3>Total Categories</h3>
+                    <p id="totalCategories">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Guests</h3>
+                    <p id="totalGuests">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Expected Count</h3>
+                    <p id="totalExpected">0</p>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="controls-section">
+                <button id="addCategoryBtn" class="btn btn-primary">Add Category</button>
+                <button id="refreshBtn" class="btn btn-secondary">Refresh</button>
+                <button id="saveBtn" class="btn btn-success">Save Changes</button>
+            </div>
+
+            <!-- Categories List -->
+            <div id="categoriesContainer" class="categories-container">
+                <!-- Categories will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Add/Edit Category Modal -->
+    <div id="categoryModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle">Add Category</h2>
+            <form id="categoryForm">
+                <div class="form-group">
+                    <label for="categoryName">Category Name</label>
+                    <input type="text" id="categoryName" required>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" id="cancelCategoryBtn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add/Edit Guest Modal -->
+    <div id="guestModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="guestModalTitle">Add Guest</h2>
+            <form id="guestForm">
+                <div class="form-group">
+                    <label for="guestName">Guest Name</label>
+                    <input type="text" id="guestName" required>
+                </div>
+                <div class="form-group">
+                    <label for="guestPhone">Phone Number</label>
+                    <input type="tel" id="guestPhone" placeholder="+254 700 000 000">
+                </div>
+                <div class="form-group">
+                    <label for="expectedCount">Expected Count</label>
+                    <input type="number" id="expectedCount" min="1" value="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="isExact">
+                        <input type="checkbox" id="isExact">
+                        Exact count (only mentioned individuals)
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="guestNotes">Notes (Optional)</label>
+                    <textarea id="guestNotes" rows="3" placeholder="Additional details..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" id="cancelGuestBtn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Built with pure graduation energy by PH Magutu</p>
+    </footer>
+
+    <script type="module" src="/js/guests-admin.js"></script>
+</body>
+</html>
+
