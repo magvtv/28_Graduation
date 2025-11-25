@@ -1,0 +1,237 @@
+{
+  "categories": [
+    {
+      "name": "church members",
+      "guests": [
+        {
+          "name": "elder nyamweya",
+          "expectedCount": 4,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "elder maranga",
+          "expectedCount": 3,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "elder getugi",
+          "expectedCount": 2,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "elder mokaya",
+          "expectedCount": 2,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "elder ezekiel",
+          "expectedCount": 1,
+          "isExact": true,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "elder mairura",
+          "expectedCount": 3,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "grandma mary-3",
+          "expectedCount": 2,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "grandma mary-2",
+          "expectedCount": 2,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "grandma ziporah",
+          "expectedCount": 1,
+          "isExact": true,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "grandma phoebe",
+          "expectedCount": 1,
+          "isExact": true,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "ejidiah",
+          "expectedCount": 4,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "prof. jane kerubo",
+          "expectedCount": 1,
+          "isExact": true,
+          "notes": null,
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "friends",
+      "guests": [
+        {
+          "name": "nicodemus",
+          "expectedCount": 1,
+          "isExact": true,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "techx",
+          "expectedCount": 4,
+          "isExact": false,
+          "notes": "judd, sam, keith, eric",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "relatives",
+      "guests": [
+        {
+          "name": "prof. grandpa jerry",
+          "expectedCount": 2,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "grandpa moturi + grandma margaret",
+          "expectedCount": 2,
+          "isExact": true,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "grandpa kefa",
+          "expectedCount": 2,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "auntie philise",
+          "expectedCount": 3,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "uncle mokandu",
+          "expectedCount": 1,
+          "isExact": true,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "grandpa andrew",
+          "expectedCount": 2,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "neighbors",
+      "guests": [
+        {
+          "name": "the borrs",
+          "expectedCount": 4,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "mama yvonne",
+          "expectedCount": 2,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "mr & mrs wanjala",
+          "expectedCount": 3,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "close family & siblings",
+      "guests": [
+        {
+          "name": "dad",
+          "expectedCount": 3,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "mom",
+          "expectedCount": 1,
+          "isExact": true,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "virginia",
+          "expectedCount": 2,
+          "isExact": false,
+          "notes": "with raphael",
+          "phone": null
+        },
+        {
+          "name": "auntie miriam",
+          "expectedCount": 5,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "uncle francis",
+          "expectedCount": 4,
+          "isExact": false,
+          "notes": null,
+          "phone": null
+        },
+        {
+          "name": "auntie teresia",
+          "expectedCount": 1,
+          "isExact": true,
+          "notes": null,
+          "phone": null
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalExpectedGuests": 0,
+    "lastUpdated": null,
+    "notes": "All guest counts are tentative"
+  }
+}
