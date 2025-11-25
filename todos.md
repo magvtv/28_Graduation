@@ -1,0 +1,3 @@
+- [] add a countdown timer to the page
+- [] add location to the page: instructions for those coming from town
+- []
