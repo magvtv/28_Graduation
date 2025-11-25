@@ -1,0 +1,26 @@
+[build]
+  publish = "."
+  command = ""
+
+# Redirect root to index.html
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+# Optional: Clean URLs for pages
+[[redirects]]
+  from = "/event"
+  to = "/pages/event.html"
+  status = 200
+
+[[redirects]]
+  from = "/venue"
+  to = "/pages/venue.html"
+  status = 200
+
+[[redirects]]
+  from = "/admin"
+  to = "/pages/guests-admin.html"
+  status = 200
+
